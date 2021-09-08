@@ -27,6 +27,7 @@
     padding: 1rem;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 2rem;
 
     a {
       font-weight: 500;
@@ -48,5 +49,25 @@
         color: var(--desaturatedBlue);
       }
     }
+  }
+
+  .payment-btn {
+    background: var(--brightBlue);
+    color: var(--paleBlue);
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0px 13px 13px 3px var(--paleBlue);
+    margin-bottom: 2rem;
+  }
+
+  .cancel-btn {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: var(--desaturatedBlue);
+    font-weight: 900;
   }
 }
