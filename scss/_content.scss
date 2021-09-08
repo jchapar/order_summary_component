@@ -1,0 +1,52 @@
+.card-content {
+  background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .card-title {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+
+  .card-text {
+    max-width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--desaturatedBlue);
+    margin-bottom: 1.5rem;
+  }
+
+  .plan {
+    background-color: var(--veryPaleBlue);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 10px;
+
+    a {
+      font-weight: 500;
+      margin-left: 3rem;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
+
+    .plan-type {
+      margin-right: 2rem;
+
+      .plan-name {
+        font-weight: var(--fw-900);
+      }
+
+      .plan-price {
+        color: var(--desaturatedBlue);
+      }
+    }
+  }
+}

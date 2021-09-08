@@ -7,12 +7,27 @@
   --darkBlue: hsl(223, 47%, 23%);
 
   // Fonts
-  --ff: font-family: 'Red Hat Display', sans-serif;
-  --fw-500: 500; 
-  --fw-700: 500; 
-  --fw-900: 500; 
+  --ff: "Red Hat Display", sans-serif;
+  --fw-500: 500;
+  --fw-700: 500;
+  --fw-900: 500;
 
   // Widths
   --desktop-width: 90rem;
   --mobile-width: 23.5rem;
+}
+
+body {
+  font-family: var(--ff);
+}
+
+.container {
+  max-width: var(--mobile-width);
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
 }

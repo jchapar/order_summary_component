@@ -1,3 +1,19 @@
+main > div {
+  height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  border: 3px solid red;
+  // border: 2px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .card-top {
+    background: url(../images/illustration-hero.svg) no-repeat center center /
+      cover;
+    height: 20vh;
+  }
 }
